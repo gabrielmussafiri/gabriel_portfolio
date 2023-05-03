@@ -6,6 +6,8 @@
     <title>Gabriel</title>
     <!-- Link To CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Link Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <!-- Box Icons -->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -135,11 +137,139 @@
       <!-- portfolio Content -->
       <div class="portfolio-content">
         <div class="portfolio-box">
-          <img src="" alt="" class="portofolio-img" />
+          <img src="img/portfolio-1.webp" alt="" class="portofolio-img" />
+          <!-- Overlay -->
+          <div class="portfolio-overlay">
+            <h2>Web Development</h2>
+            <a href="#">
+              <i class="bx bx-link-alt"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="img/portfolio-2.webp" alt="" class="portofolio-img" />
+          <!-- Overlay -->
+          <div class="portfolio-overlay">
+            <h2>Designing</h2>
+            <a href="#">
+              <i class="bx bx-link-alt"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="img/portfolio-3.webp" alt="" class="portofolio-img" />
+          <!-- Overlay -->
+          <div class="portfolio-overlay">
+            <h2>Mobile Dev</h2>
+            <a href="#">
+              <i class="bx bx-link-alt"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="img/portfolio-4.webp" alt="" class="portofolio-img" />
+          <!-- Overlay -->
+          <div class="portfolio-overlay">
+            <h2>Software Developer</h2>
+            <a href="#">
+              <i class="bx bx-link-alt"></i>
+            </a>
+          </div>
         </div>
       </div>
     </section>
+    <!-- Projects -->
+    <section class="projects container" id="projects">
+      <!-- Heading -->
+      <h2 class="headling">Projects</h2>
+      <!--  Projets Content-->
+      <div class="projects-content">
+        <div class="project-box">
+          <h2>285+</h2>
+          <span>Projects Completed</span>
+        </div>
+        <div class="project-box">
+          <h2>190+</h2>
+          <span>Websites Develop/span>
+        </div>
+        <div class="project-box">
+          <h2>200+</h2>
+          <span>Happy Client</span>
+        </div>
+      </div>
+    </section>
+    <!-- Review -->
+    <section class="container reviews" id="reviews">
+        <!-- heading -->
+        <h2 class="heading">Reviews</h2>
+        <!-- Review Content -->
+        <div class="reviews-content swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <!-- Review Box-->
+                    <div class="review-box">
+                        <i class='bx bxs-quote-right' ></i>
+                        <p class="review-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi culpa ullam, atque non voluptates exercitationem nulla sed recusandae accusamus molestias natus dignissimos officiis, officia omnis.
+                        </p>
+                         <div class="review-profile">
+                            <h2>Evangeline Lumbu</h2>
+                            <span> From Finland</span>
+                            <img src="img/review-1.jpg" alt="">
+                         </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- Review Box-->
+                    <div class="review-box">
+                        <i class='bx bxs-quote-right'></i>
+                        <p class="review-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi culpa ullam, atque non voluptates exercitationem nulla sed recusandae accusamus molestias natus dignissimos officiis, officia omnis.
+                        </p>
+                         <div class="review-profile">
+                            <h2>Evangeline Lumbu</h2>
+                            <span> From Finland</span>
+                            <img src="img/review-2.jpg" alt="">
+                         </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- Review Box-->
+                    <div class="review-box">
+                        <i class='bx bxs-quote-right' ></i>
+                        <p class="review-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi culpa ullam, atque non voluptates exercitationem nulla sed recusandae accusamus molestias natus dignissimos officiis, officia omnis.
+                        </p>
+                         <div class="review-profile">
+                            <h2>Evangeline Lumbu</h2>
+                            <span> From Finland</span>
+                            <img src="img/review-3.jpg" alt="">
+                         </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+        </div>
 
+    </section>
+    <!-- Contact Form -->
+    <section class="contact container" id="contact">
+        <!-- heading -->
+        <h2 class="heading">Contact</h2>
+        <!-- Contact Form -->
+        <form action="" class="contact-form" id="contact-form">
+            <input type="text" placeholder="Your Name" class="name" required>
+            <input type="email" name=""id="" placeholder="Emai
+            adress..."class="email"required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write message here.." class="message"required></textarea>
+            <input type="submit" value="Send" class="Send-btn    ">
+
+        </form>
+         
+    </section>
+
+<!-- Link Swiper Js -->
+<script src="js/swiper-bundle.min.js"></script>
     <!-- link to js -->
     <script src="js/main.js"></script>
   </body>
